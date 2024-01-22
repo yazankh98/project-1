@@ -1,0 +1,532 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* the style for navbar */
+
+nav {
+    padding: 0 5%;
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+
+}
+
+nav .logo {
+    width: 167px;
+    height: 41px;
+}
+
+nav .right button {
+    background-color: none;
+    border: none;
+    display: none;
+
+}
+
+.right ul {
+    display: flex;
+    text-decoration: none;
+    gap: 50px;
+    list-style: none;
+    font-weight: 600;
+}
+
+.right ul a {
+    text-decoration: none;
+    color: black;
+}
+
+/* the style fo hero */
+
+.hero {
+    position: relative;
+    height: 100vh;
+
+}
+
+.hero .back-ground img {
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+.hero .box {
+    background-color: #DFE9F4;
+    width: 50%;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+
+}
+
+.hero .box h5 {
+    padding-top: 40px;
+    color: #333;
+    padding-left: 50px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.hero .box h1 {
+    width: 21rem;
+    font-weight: 700;
+    line-height: 3rem;
+    padding-left: 50px;
+    padding-bottom: 22px;
+    color: #054C73;
+
+
+}
+
+
+
+.hero .box p {
+    color: #333;
+    font-weight: 500;
+    padding-left: 50px;
+    line-height: 2rem;
+}
+
+
+.hero .box button {
+    background-color: #054C73;
+    color: #fff;
+    padding: 25px 72px;
+    border-radius: 50px;
+    margin: 40px;
+    border: none;
+}
+
+/*  service secation */
+
+.service {
+    background-color: #F2F5FF;
+    display: flex;
+    padding: 50px 40px;
+    width: 100%;
+    gap: 20px;
+}
+
+.service img {
+    width: 35%;
+    /*put this on 35% for responsive because in screen width "1000" show overflow */
+}
+
+/* Inspiration section */
+
+.Inspiration h1,
+.Inspiration p {
+    text-align: center;
+    line-height: 50px;
+}
+
+.Inspiration h1 {
+    color: #333333;
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+.Inspiration p {
+    color: #666666;
+    font-weight: 400;
+    padding-bottom: 40px;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+.Inspiration-img {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    gap: 10px;
+
+
+}
+
+.Inspiration-img img {
+    width: 300px;
+}
+
+.Inspiration-1,
+.Inspiration-3 {
+    transform: translateY(10%);
+}
+
+.Inspiration {
+    margin-bottom: 100px;
+}
+
+/* Beautify section */
+.Beautify {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 18%;
+}
+
+.Beautify img {
+    width: 45%;
+    padding-left: 20px;
+    position: absolute;
+    right: 55px;
+}
+
+.Beautify h1 {
+    padding-bottom: 35px;
+    padding-left: 30px;
+
+}
+
+.Beautify p {
+    font-size: 1.25rem;
+    max-width: 40%;
+    line-height: 35px;
+    padding-left: 30px;
+
+}
+
+.Beautify span {
+    font-size: 1.25rem;
+    display: block;
+    max-width: 30%;
+    padding: 30px 0 30px 30px;
+}
+
+.Beautify button {
+    background-color: #054C73;
+    color: white;
+    padding: 20px 60px;
+    border-radius: 30px;
+    margin: 30px;
+    font-weight: 700;
+
+}
+
+/*  Browse section */
+.Browse-title {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.Browse-title p {
+    padding: 20px 0;
+    color: #666666;
+}
+
+.Browse-img {
+    padding: 0 65px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+
+}
+
+.Browse-img img {
+    width: 100%;
+}
+
+.Browse-img .explain p {
+    padding-top: 10px;
+    color: #333333;
+    width: min-content;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 700;
+}
+
+.Browse hr {
+    margin-top: 70px;
+}
+
+/*  Work section */
+
+.Work-title {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.Work p {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.container-Works {
+    padding-left: 30px;
+    padding-top: 50px;
+    display: flex;
+}
+
+.container-Works img {
+    width: 85%;
+}
+
+.container-Works h1 {
+    width: 85%;
+    text-align: center;
+}
+
+.container-Works p {
+    width: 85%;
+    line-height: 1.5rem;
+}
+
+/*  end section */
+.end {
+    background-color: #F2F5FF;
+    padding: 75px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.end h1 {
+    line-height: 60px;
+    font-weight: 700;
+}
+
+.end p {
+    width: 25rem;
+    margin: 0 auto;
+    line-height: 35px;
+}
+
+.end-email {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.end-email #email {
+    border-radius: 3px;
+    border: 1px solid #054C73;
+    background: white;
+    padding: 12px 50px;
+}
+
+.end-email button {
+    border-radius: 3px;
+    border: 1px solid #011C42;
+    background: #054C73;
+    padding: 13px;
+    color: white;
+}
+
+/*  end section */
+
+.foot-contanier {
+    background-color: #03344F;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 50px 0;
+}
+
+.foot-contanier .left {
+    width: 40%;
+    padding-left: 40px;
+}
+
+.foot-contanier h1 {
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+
+.foot-contanier p {
+    line-height: 40px;
+}
+
+.foot-contanier .right {
+    padding-right: 40px;
+}
+
+.title-left {
+    display: flex;
+    justify-content: end;
+}
+
+/* for screen mobile */
+
+@media screen and (max-width:992px) {
+
+    /* the style of {navbar} for screen mobile */
+
+    .right ul {
+        display: none;
+    }
+
+    nav .right button {
+        display: inline;
+    }
+
+    nav {
+        padding: 21.5px 20px;
+    }
+
+    /* the style of {hero} for screen mobile */
+    .hero {
+        width: 100%;
+        position: relative;
+    }
+
+    .hero img {
+        object-fit: cover;
+    }
+
+    .hero .box {
+        margin: 0 auto;
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        background-color: #00000000;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .hero .box h1 {
+        margin: 0 auto;
+        max-width: 100%;
+        font-weight: 700;
+        line-height: 3rem;
+        padding-left: 50px;
+        padding-bottom: 22px;
+        color: #054C73;
+
+    }
+
+    .hero .box p {
+        color: #333;
+        font-weight: 500;
+        padding-left: 50px;
+        line-height: 2rem;
+    }
+
+    /* the style of {service section} for screen mobile */
+    .service {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 55px;
+    }
+
+    .service img {
+        background-size: 10%;
+        width: 55%;
+    }
+
+    /* the style of {Inspiration section} for screen mobile */
+    .Inspiration-img {
+        flex-direction: column;
+        margin-left: 40px;
+        width: 80%;
+        gap: 25px;
+    }
+
+    .Inspiration-1,
+    .Inspiration-3 {
+        transform: translateY(0%);
+
+    }
+
+    .Inspiration-img img {
+        width: 100%;
+    }
+
+    /* the style of {Beautify section} for screen mobile */
+    .Beautify {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Beautify h1 {
+        margin: 0 auto;
+        font-weight: 700;
+        font-size: 1.625rem;
+    }
+
+    .Beautify p,
+    .Beautify span {
+        max-width: max-content;
+    }
+
+    .Beautify img {
+        position: relative;
+        padding: 0;
+        right: 0;
+        width: 100vw;
+        order: 1;
+    }
+
+    /* the style of {Browse section} for screen mobile */
+    .Browse-img {
+        flex-direction: column;
+    }
+
+    /* the style of {Works section} for screen mobile */
+    .container-Works {
+        flex-direction: column;
+    }
+
+    .container-Works div {
+        padding-bottom: 35px;
+    }
+
+    .container-Works h1 {
+        width: max-content;
+        text-align: start;
+    }
+
+    .container-Works p {
+        text-align: start;
+    }
+
+    /* the style of {navbar} for screen mobile */
+    .end p {
+        width: 20rem;
+    }
+
+    .end-email {
+        width: 90%;
+    }
+
+    /* the style of {foot} for screen mobile */
+    .foot-contanier {
+        display: block;
+        flex-direction: column;
+    }
+
+    .foot-contanier .left h1 {
+        width: max-content;
+    }
+
+    .foot-contanier .left p {
+        width: 15rem;
+        padding-bottom: 25px;
+    }
+
+    .foot-contanier .right h1 {
+        justify-content: start;
+        padding-left: 35px;
+    }
+
+    .foot-contanier .right .title-left-img {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: flex-start;
+        padding-left: 35px;
+    }
+
+    .foot-contanier .right .title-left-img img {
+        width: 45%;
+    }
+
+}
